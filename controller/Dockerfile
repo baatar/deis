@@ -16,7 +16,7 @@ RUN pip install celery==3.1.11 \
                 Django==1.6.4 \
                 django-allauth==0.16.1 \
                 git+https://github.com/deis/django-fsm@add-exception-handling \
-                django-guardian==1.1.1 \
+                django-guardian==1.2.0 \
                 django-json-field==0.5.5 \
                 django-yamlfield==0.5 \
                 djangorestframework==2.3.12 \
