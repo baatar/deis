@@ -20,7 +20,7 @@ gunicorn==18.0
 paramiko==1.12.1
 psycopg2==2.5.2
 python-etcd==0.3.0
-PyYAML==3.10
+PyYAML==3.11
 South==0.8.4
 
 # Deis client requirements
