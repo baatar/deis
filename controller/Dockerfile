@@ -22,7 +22,7 @@ RUN pip install celery==3.1.11 \
                 djangorestframework==2.3.13 \
                 gevent==1.0 \
                 gunicorn==18.0 \
-                paramiko==1.12.1 \
+                paramiko==1.13.0 \
                 psycopg2==2.5.2 \
                 pycrypto==2.6.1 \
                 python-etcd==0.3.0 \
