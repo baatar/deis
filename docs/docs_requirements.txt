@@ -15,7 +15,7 @@ django-allauth==0.16.1
 git+https://github.com/bacongobbler/django-fsm@add-exception-handling
 django-guardian==1.2.0
 django-json-field==0.5.5
-djangorestframework==2.3.12
+djangorestframework==2.3.13
 gunicorn==18.0
 paramiko==1.12.1
 psycopg2==2.5.2
