@@ -6,8 +6,8 @@ RUN sed -i 's/main$/main universe/' /etc/apt/sources.list && apt-get update
 RUN apt-get install -y git-core build-essential python-dev \
     libevent-dev python-openssl liblzma-dev wget
 
-# install recent pip
-RUN wget -qO- https://raw.githubusercontent.com/pypa/pip/1.5.4/contrib/get-pip.py | python -
+# install latest pip
+RUN wget -qO- https://bootstrap.pypa.io/get-pip.py | python -
 
 # create a registry user
 RUN useradd -s /bin/bash registry
