@@ -5,8 +5,8 @@ MAINTAINER Gabriel A. Monroy <gabriel@opdemand.com>
 RUN apt-get update && \
     apt-get install -yq python-dev libpq-dev libyaml-dev
 
-# install recent pip
-RUN wget -qO- https://raw.githubusercontent.com/pypa/pip/1.5.4/contrib/get-pip.py | python -
+# install latest pip
+RUN wget -qO- https://bootstrap.pypa.io/get-pip.py | python -
 
 # HACK: install git so we can install bacongobbler's fork of django-fsm
 RUN apt-get install -yq git

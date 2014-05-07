@@ -18,8 +18,8 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 36A1D7869245C8950F9
 RUN apt-get update -qy
 RUN apt-get install -yq lxc-docker-0.10.0
 
-# install recent pip
-RUN wget -qO- https://raw.githubusercontent.com/pypa/pip/1.5.4/contrib/get-pip.py | python -
+# install latest pip
+RUN wget -qO- https://bootstrap.pypa.io/get-pip.py | python -
 
 # install hook dependencies
 RUN pip install pyyaml requests
